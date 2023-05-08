@@ -1,0 +1,56 @@
+header.header 
+  .container 
+    .header-top 
+      .header-logo 
+        a.header-image(href="/")
+          img(src="/images/img-logo.svg", alt="") 
+        span.header-text pollock
+      ul.header-menu
+          li.header-item.active
+            a.header-link(href="#!") Home 
+          li.header-item 
+            a.header-link(href="#!") Services 
+          li.header-item 
+            a.header-link(href="#!") About 
+          li.header-item 
+            a.header-link(href="#!") Pages 
+          li.header-item 
+            a.header-link(href="#!") Blog 
+          li.header-item 
+            a.header-link(href="#!") Contact 
+          li.header-item 
+            a.button.header-login(href="#!") Sign Up
+          li.header-item 
+            a.header-link(href="#!") 
+              img(src="./images/icon-search.svg", alt="")
+          li.header-item 
+            a.header-link(href="#!")
+              img(src="./images/icon-bag.svg", alt="")
+      .header-icon
+        .header-search 
+          img(src="./images/icon-search.svg", alt="")
+        .header-bag 
+          img(src="./images/icon-bag.svg", alt="")
+        a.button.header-login(href="#!") Sign Up
+      .header-menu-toggle 
+        span
+        span
+        span
+  .header-content 
+    img.header-bg(srcset="./images/img-shapes.png 2x", alt="")
+    .container.header-content-main
+      .header-content 
+        h1.g-heading.g-heading--big.header-heading Branding to fuel your growth 
+          span goals &amp; ideas.
+        p.g-text.g-text--big.header-desc We're a digital product and UX agency in San Francisco. Strategy, design, and development across all platforms.
+        .header-buttons 
+          a.button.header-button(href="#!") Get Started
+          .header-play 
+            .header-play-icon
+              img(src="./images/icon-play.svg", alt="")
+            span.header-play-text How It Works
+      .header-hero
+        img(srcset="./images/img-hero.png 2x", alt="")  
+  a(href="#service").header-arrow-down 
+    .header-arrow-icon
+      img(src="./images/icon-arrow-down.svg", alt="")
