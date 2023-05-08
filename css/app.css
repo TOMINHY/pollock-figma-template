@@ -712,6 +712,9 @@ body {
   align-items: stretch;
 }
 .explore-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   margin-bottom: 30px;
 }
 .explore-name {
@@ -752,13 +755,7 @@ body {
     font-size: 16px;
   }
   .explore-image {
-    height: 160px;
     margin-bottom: 15px;
-  }
-  .explore-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 }
 
